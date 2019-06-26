@@ -15,6 +15,7 @@ scalacOptions += "-target:jvm-1.8"
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 libraryDependencies ++= Seq(
+  "com.gilt" %% "gfc-logging" % "0.0.8",
   "org.scalatest" %% "scalatest" % "3.1.0-SNAP13" % Test
 )
 
