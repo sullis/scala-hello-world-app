@@ -1,5 +1,7 @@
 enablePlugins(Sonatype)
 
+import scoverage.ScoverageKeys
+
 name := "scala-hello-world-app"
 
 organization := "io.github.sullis"
@@ -33,3 +35,5 @@ publishArtifact in Test := false
 pomIncludeRepository := { _ => false }
 
 licenses := Seq("APL2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
+
+ScoverageKeys.coverageMinimum := 1.0
