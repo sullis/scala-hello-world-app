@@ -20,6 +20,7 @@ libraryDependencies ++= Seq(
   "com.gilt" %% "gfc-logging" % "0.0.8",
   "ch.qos.logback" % "logback-classic" % logbackVersion,
   "ch.qos.logback" % "logback-core" % logbackVersion,
+  "org.mockito"    % "mockito-core" % "2.28.2" % Test,
   "org.scalatest" %% "scalatest" % "3.1.0-SNAP13" % Test
 )
 
