@@ -7,3 +7,4 @@ out
 project/.bloop/
 .idea/
 *.iml
+target/
