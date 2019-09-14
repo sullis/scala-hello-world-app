@@ -6,7 +6,7 @@ name := "scala-hello-world-app"
 
 organization := "io.github.sullis"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.10"
 
 crossScalaVersions := Seq(scalaVersion.value, "2.11.12")
 
