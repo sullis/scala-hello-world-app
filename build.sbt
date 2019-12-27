@@ -20,7 +20,7 @@ libraryDependencies ++= Seq(
   "com.gilt" %% "gfc-logging" % "0.0.8",
   "ch.qos.logback" % "logback-classic" % logbackVersion,
   "ch.qos.logback" % "logback-core" % logbackVersion,
-  "com.google.guava" % "guava" % "28.1-jre",
+  "com.google.guava" % "guava" % "28.2-jre",
   "org.mockito"    % "mockito-core" % "3.2.4" % Test,
   "org.scalatest" %% "scalatest" % "3.1.0" % Test
 )
