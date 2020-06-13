@@ -44,6 +44,6 @@ pomIncludeRepository := { _ => false }
 
 licenses := Seq("APL2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
-ScoverageKeys.coverageMinimum := 1.0
+ScoverageKeys.coverageMinimum := 85.0
 
 ScoverageKeys.coverageFailOnMinimum := true
