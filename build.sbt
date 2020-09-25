@@ -22,7 +22,7 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-core" % logbackVersion,
   "com.google.guava" % "guava" % "29.0-jre",
   "org.mockito"    % "mockito-core" % "3.5.13" % Test,
-  "org.mockito"   %% "mockito-scala-scalatest" % "1.15.0" % Test,
+  "org.mockito"   %% "mockito-scala-scalatest" % "1.15.1" % Test,
   "org.scalatest" %% "scalatest" % "3.2.2" % Test
 )
 
