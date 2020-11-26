@@ -8,7 +8,7 @@ organization := "io.github.sullis"
 
 scalaVersion := "2.13.4"
 
-crossScalaVersions := Seq(scalaVersion.value)
+crossScalaVersions := Seq(scalaVersion.value, "3.0.0-M1")
 
 scalacOptions += "-target:jvm-1.8"
 
