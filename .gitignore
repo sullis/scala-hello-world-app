@@ -5,6 +5,7 @@ out
 .classpath
 .metals/
 .bloop/
+.bsp/
 project/.bloop/
 .idea/
 *.iml
