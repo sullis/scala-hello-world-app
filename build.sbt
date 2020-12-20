@@ -1,6 +1,6 @@
 enablePlugins(Sonatype)
 
-import scoverage.ScoverageKeys
+// import scoverage.ScoverageKeys
 
 name := "scala-hello-world-app"
 
@@ -53,6 +53,6 @@ pomIncludeRepository := { _ => false }
 
 licenses := Seq("APL2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
-ScoverageKeys.coverageMinimum := 85.0
+//  ScoverageKeys.coverageMinimum := 85.0
 
-ScoverageKeys.coverageFailOnMinimum := true
+//  ScoverageKeys.coverageFailOnMinimum := true
