@@ -8,7 +8,7 @@ organization := "io.github.sullis"
 
 scalaVersion := "2.13.5"
 
-crossScalaVersions := Seq(scalaVersion.value, "3.0.0-RC2")
+crossScalaVersions := Seq(scalaVersion.value, "3.0.0-RC3")
 
 scalacOptions += "-target:jvm-1.8"
 
@@ -32,7 +32,7 @@ libraryDependencies ++= Seq(
   "com.google.guava" % "guava" % "30.1.1-jre",
   "org.mockito"    % "mockito-core" % "3.9.0" % Test,
   "org.mockito"   %% "mockito-scala-scalatest" % "1.16.37" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.7" % Test
+  "org.scalatest" %% "scalatest" % "3.2.8" % Test
 )
 
 updateOptions := updateOptions.value.withGigahorse(false)
