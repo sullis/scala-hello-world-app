@@ -47,7 +47,7 @@ publishMavenStyle := true
 
 publishTo := sonatypePublishTo.value
 
-publishArtifact in Test := false
+Test / publishArtifact := false
 
 pomIncludeRepository := { _ => false }
 
