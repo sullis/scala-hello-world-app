@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [ '8', '16' ]
+        java: [ '8', '17-ea' ]
         scala: [ '2.13.6', '3.0.1' ]
     steps:
     - uses: actions/checkout@v2
