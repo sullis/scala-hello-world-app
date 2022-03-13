@@ -23,14 +23,14 @@ scalacOptions ++= {
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
-val logbackVersion = "1.2.10"
+val logbackVersion = "1.2.11"
 
 libraryDependencies ++= Seq(
   "org.gfccollective" %% "gfc-logging" % "1.0.0",
   "ch.qos.logback" % "logback-classic" % logbackVersion,
   "ch.qos.logback" % "logback-core" % logbackVersion,
-  "com.google.guava" % "guava" % "31.1-jre",
-  "org.mockito"    % "mockito-core" % "4.3.1" % Test,
+  "com.google.guava" % "guava" % "31.1.1-jre",
+  "org.mockito"    % "mockito-core" % "4.4.0" % Test,
   "org.mockito"   %% "mockito-scala-scalatest" % "1.16.37" % Test,
   "org.scalatest" %% "scalatest" % "3.2.11" % Test
 )
