@@ -32,7 +32,7 @@ libraryDependencies ++= Seq(
   "com.google.guava" % "guava" % "31.1-jre",
   "org.mockito"    % "mockito-core" % "4.5.1" % Test,
   "org.mockito"   %% "mockito-scala-scalatest" % "1.16.37" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.11" % Test
+  "org.scalatest" %% "scalatest" % "3.2.12" % Test
 )
 
 updateOptions := updateOptions.value.withGigahorse(false)
