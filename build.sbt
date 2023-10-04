@@ -6,7 +6,7 @@ name := "scala-hello-world-app"
 
 organization := "io.github.sullis"
 
-scalaVersion := "2.13.10"
+scalaVersion := "2.13.12"
 
 crossScalaVersions := Seq(scalaVersion.value, "3.2.2")
 
@@ -29,10 +29,10 @@ libraryDependencies ++= Seq(
   "org.gfccollective" %% "gfc-logging" % "1.0.0",
   "ch.qos.logback" % "logback-classic" % logbackVersion,
   "ch.qos.logback" % "logback-core" % logbackVersion,
-  "com.google.guava" % "guava" % "31.1-jre",
+  "com.google.guava" % "guava" % "32.1.2-jre",
   "org.mockito"    % "mockito-core" % "4.8.0" % Test,
   "org.mockito"   %% "mockito-scala-scalatest" % "1.16.37" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.15" % Test
+  "org.scalatest" %% "scalatest" % "3.2.17" % Test
 )
 
 updateOptions := updateOptions.value.withGigahorse(false)
