@@ -23,7 +23,7 @@ scalacOptions ++= {
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
-val logbackVersion = "1.4.14"
+val logbackVersion = "1.5.1"
 
 libraryDependencies ++= Seq(
   "org.gfccollective" %% "gfc-logging" % "1.0.0",
