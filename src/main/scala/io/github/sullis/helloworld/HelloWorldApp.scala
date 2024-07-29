@@ -4,10 +4,7 @@ object HelloWorldApp extends App {
 
   System.out.println("Hello world")
 
-  printArgs()
-
-  def printArgs(): Unit = {
-
+  if (args != null) {
     args.foreach { arg =>
       System.out.println(s"arg: ${arg}")
     }
