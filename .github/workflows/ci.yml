@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [ '8', '17', '21' ]
-        scala: [ '2.13.14', '3.4.2' ]
+        java: [ '21' ]
+        scala: [ '3.4.2' ]
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK
