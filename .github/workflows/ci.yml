@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         java: [ '21' ]
-        scala: [ '3.5.0' ]
+        scala: [ '3.5.1' ]
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK
