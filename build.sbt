@@ -23,7 +23,7 @@ scalacOptions ++= {
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
-val logbackVersion = "1.5.15"
+val logbackVersion = "1.5.17"
 
 libraryDependencies ++= Seq(
   "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
