@@ -6,7 +6,7 @@ name := "scala-hello-world-app"
 
 organization := "io.github.sullis"
 
-scalaVersion := "3.5.1"
+scalaVersion := "3.7.4"
 
 crossScalaVersions := Seq(scalaVersion.value)
 
@@ -26,7 +26,7 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 val logbackVersion = "1.5.21"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.6",
+  "com.typesafe.scala-logging" %% "scala-logging" % "4.0.0-RC1",
   "ch.qos.logback" % "logback-classic" % logbackVersion,
   "ch.qos.logback" % "logback-core" % logbackVersion,
   "com.google.guava" % "guava" % "32.1.2-jre",
