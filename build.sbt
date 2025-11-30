@@ -26,7 +26,7 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 val logbackVersion = "1.5.18"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.6",
   "ch.qos.logback" % "logback-classic" % logbackVersion,
   "ch.qos.logback" % "logback-core" % logbackVersion,
   "com.google.guava" % "guava" % "32.1.2-jre",
