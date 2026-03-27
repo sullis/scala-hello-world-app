@@ -31,7 +31,7 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-core" % logbackVersion,
   "com.google.guava" % "guava" % "32.1.2-jre",
   "org.scalatestplus" %% "mockito-5-12" % "3.2.19.0" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.19" % Test
+  "org.scalatest" %% "scalatest" % "3.2.20" % Test
 )
 
 updateOptions := updateOptions.value.withGigahorse(false)
